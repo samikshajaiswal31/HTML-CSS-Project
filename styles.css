@@ -1,4 +1,8 @@
+/* Universal selector */
+
 *{ padding:0; margin:0; box-sizing: border-box; font-family: sans-serif; }
+
+/* Contextual selector */
 
 header {
 	width: 100%;
@@ -22,6 +26,19 @@ nav {
 	z-index: 1;
 	background: white;
 }
+
+button {
+	background: black;
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+
+/* Class selectors of HTLM elements */
 
 .logo {
 	font-size: 50px;
@@ -86,16 +103,6 @@ nav {
 .right p {
 	font-size: 25px;
 	margin:20px 0px;
-}
-
-button {
-	background: black;
-	color: white;
-	font-weight: bold;
-	border: none;
-	outline: none;
-	padding: 10px 20px;
-	margin-bottom: 20px;
 }
 
 .wrapper {
@@ -171,6 +178,9 @@ button {
 	transition: 0.4s ease;
 }
 
+
+/* ID selectors of HTLM elements */
+
 #collections {
 	padding: 50px 0px;
 	font-size: 30px;
@@ -194,7 +204,6 @@ button {
 	color: white;
 	padding: 10px;
 }
-
 
 
 
